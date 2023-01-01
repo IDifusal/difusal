@@ -1,7 +1,7 @@
 <script setup>
 const typeValue = ref("")
 const typeStatus = ref(false)
-const displayTextArray = ["Frontend", "Vue", "Angular", "Flutter", "Laravel", "Node.js"]
+const displayTextArray = ["Frontend","Backend","Flutter","Vue", "Angular", "Laravel", "Node.js"]
 const typingSpeed = 100
 const erasingSpeed = 100
 const newTextDelay = 2000
@@ -46,7 +46,7 @@ onMounted(() =>
     <div class="text-4xl md:text-5xl font-medium noover h-screen  flex items-center relative hero px-5 md:px-0">
         <div class="container md:flex  items-center m-auto">
             <div class="md:w-1/2 z-10 relative ">
-                <div class="flex"> <span>I'm</span>, <h1 class="colors"> Cristhian Sanchez</h1>
+                <div class="flex"> <span>I'm</span>, <h1 class="colors">&nbsp;Cristhian Sanchez</h1>
                 </div>
                 <div class="flex">
                     <span>
