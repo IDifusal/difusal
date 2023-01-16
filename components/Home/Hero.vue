@@ -46,7 +46,7 @@ onMounted(() =>
     <div class="text-4xl md:text-5xl font-medium noover h-screen  flex items-center relative hero px-5 md:px-0">
         <div class="container md:flex  items-center m-auto">
             <div class="md:w-1/2 z-10 relative ">
-                <div class="flex"> <span>I'm</span>, <h1 class="colors">&nbsp;Cristhian Sanchez</h1>
+                <div class="flex"> <span>I'm</span>, <h2 class="colors">&nbsp;Cristhian Sanchez</h2>
                 </div>
                 <div class="flex">
                     <span>
@@ -56,12 +56,13 @@ onMounted(() =>
                     <div class="typed-text ml-1">Developer</div>
                 </div>
                 <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+                <h1 class="text-base">Freelance Vue.js developer.</h1>
                 <p class="hero__text text-base font-b">
                     As a skilled developer with 3 years of experience, I am proficient in both frontend and backend development. In my free time, I also have experience as a mobile developer. I am always eager to learn and take on new challenges in the tech industry.
                 </p>
             </div>
             <div class=" md:w-1/2 z-10 relative flex justify-center items-center mt-20 md0mt-0">
-                <img src="/difusal.png">
+                <img src="/difusal.png" alt="Cristhian Sanchez Medina a.k.a Difusal">
             </div>
             <div class="absolute img-back">
                 <img src="https://nuxt.com/assets/home/hero-gradient-tablet.svg" alt="">

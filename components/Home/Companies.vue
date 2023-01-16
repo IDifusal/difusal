@@ -5,12 +5,12 @@
     <article>
       <div>
         <ul>
-          <li class="" v-for="slide in listImages"><img :src="`/images/companies/${slide}.png`" /></li>
+          <li class="" v-for="slide in listImages"><img :src="`/images/companies/${slide}.png`" :alt="slide" /></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li class="" v-for="slide in listImages"><img :src="`/images/companies/${slide}.png`" /></li>
+          <li class="" v-for="slide in listImages"><img :src="`/images/companies/${slide}.png`" :alt="slide"/></li>
         </ul>
       </div>
     </article>
