@@ -109,6 +109,9 @@ span,
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-image: linear-gradient(45deg, #36e4da, #00dc82);
+    @media(max-width:750px){
+        font-size: 30px;
+    }
 }
 
 .blinking-cursor {
