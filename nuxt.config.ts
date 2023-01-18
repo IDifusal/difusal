@@ -1,8 +1,10 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
-    '@nuxtjs/tailwindcss',
-    '@fullpage/nuxt-fullpage'
+    '@nuxtjs/tailwindcss'
+  ],
+  plugins:[
+  '@/plugins/ga.js'
   ],
   app: {
     head: {
