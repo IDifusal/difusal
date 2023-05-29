@@ -31,7 +31,7 @@
                 this.invoiceId = searchParams.get("invoiceId");
             },
             verifyInvoice(){
-                fetch("https://dekitinvoicechecker-812310172.development.catalystserverless.com/server/cf_invoiceChecker/execute?invoiceId=3013165000007288003&ZCFKEY=e075eed2374603b5c2e4ea84b97ac050", { mode: 'no-cors'})
+                fetch("https://dekitinvoicechecker-812310172.development.catalystserverless.com/server/cf_invoiceChecker/execute?invoiceId=3013165000007288003&ZCFKEY=e075eed2374603b5c2e4ea84b97ac050")
                 .then(response => {
                     var output = response.body.output; 
                     var parsedOutput = JSON.parse(output);
