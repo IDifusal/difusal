@@ -58,7 +58,7 @@ onMounted(() =>
                 <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
                 <h1 class="text-base">Freelance Vue.js developer.</h1>
                 <p class="hero__text text-base font-b">
-                    As a skilled developer with 3 years of experience, I am proficient in both frontend and backend development. In my free time, I also have experience as a mobile developer. I am always eager to learn and take on new challenges in the tech industry.
+                    As a skilled developer with 5 years of experience, I am proficient in both frontend and backend development. In my free time, I also have experience as a mobile developer. I am always eager to learn and take on new challenges in the tech industry.
                 </p>
             </div>
             <div class=" md:w-1/2 z-10 relative flex justify-center items-center mt-20 md0mt-0">
