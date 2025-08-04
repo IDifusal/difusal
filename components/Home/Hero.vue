@@ -1,7 +1,7 @@
 <script setup>
 const typeValue = ref("")
 const typeStatus = ref(false)
-const displayTextArray = ["Frontend","Backend","Flutter","Vue", "Angular", "Laravel", "Node.js"]
+const displayTextArray = ["Frontend","Backend","Flutter","Vue", "Angular", "Laravel", "Node.js","React","Next.js","AWS","Docker","CI/CD"]
 const typingSpeed = 100
 const erasingSpeed = 100
 const newTextDelay = 2000
