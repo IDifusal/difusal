@@ -49,7 +49,7 @@
   },
   {
     title: "Natur Skin",
-    url: "https://naturskin.com/",
+    url: "https://naturskinbeauty.com/",
     thumbnail: "/images/portfolio/natur-skin.png",
     role: "Website Migration & On-Page Optimization",
     description:
