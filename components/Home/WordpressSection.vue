@@ -6,7 +6,7 @@ const props = defineProps({
   },
   title: {
     type: String,
-    default: 'WordPress Projects'
+    default: 'A Few Favorite WordPress Sites (Selected from Many I\'ve Worked On)'
   },
   subtitle: {
     type: String,
