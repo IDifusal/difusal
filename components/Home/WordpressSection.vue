@@ -42,8 +42,9 @@ onMounted(() => {
       <!-- Header -->
       <div class="mb-8 sm:mb-12">
         <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight">
-          {{ title }}
+          WordPress Projects - yes 2025 still using it!
         </h2>
+        
         <p class="mt-2 text-sm sm:text-base text-muted-foreground">
           {{ subtitle }}
         </p>

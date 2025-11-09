@@ -1,26 +1,27 @@
 <template>
+<div>
     <div class="spacer-50"></div>
 
   <div class="container m-auto overflow-hidden">
     <article>
       <div>
         <ul>
-          <li class="" v-for="slide in listImages"><img :src="`/images/companies/${slide}.png`" :alt="slide" /></li>
+          <li class="" v-for="slide in listImages" :key="slide"><img :src="`/images/companies/${slide}.png`" :alt="slide" /></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li class="" v-for="slide in listImages"><img :src="`/images/companies/${slide}.png`" :alt="slide"/></li>
+          <li class="" v-for="slide in listImages" :key="slide"><img :src="`/images/companies/${slide}.png`" :alt="slide"/></li>
         </ul>
       </div>
     </article>
   </div>
   <div class="spacer-50"></div>
-
+</div>
 </template>
 
 <script setup>
-const listImages = ref(['espanglish', 'ilustra', 'tci', 'vivavilla', 'knomad', 'kuna', 'mv', 'nave'])
+const listImages = ref(['interconnecta', 'harper','espanglish', 'ilustra', 'tci', 'vivavilla', 'knomad', 'kuna', 'mv', 'nave'])
 
 </script>
 

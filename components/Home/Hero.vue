@@ -1,7 +1,7 @@
 <script setup>
 const typeValue = ref("")
 const typeStatus = ref(false)
-const displayTextArray = ["Frontend","Backend","Flutter","Vue", "Angular", "Laravel", "Node.js","React","Next.js","AWS","Docker","CI/CD"]
+const displayTextArray = ["Frontend","Backend","AI","Flutter","Vue", "Angular", "Laravel", "Node.js","React","Next.js","AWS","Docker","CI/CD"]
 const typingSpeed = 100
 const erasingSpeed = 100
 const newTextDelay = 2000
@@ -56,16 +56,13 @@ onMounted(() =>
                     <div class="typed-text ml-1">Developer</div>
                 </div>
                 <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-                <h1 class="text-base">Freelance Vue.js developer.</h1>
+                <h1 class="text-base">Full Stack Developer <span class="text-xs">(All batteries included)</span></h1>
                 <p class="hero__text text-base font-b">
-                    As a skilled developer with 5 years of experience, I am proficient in both frontend and backend development. In my free time, I also have experience as a mobile developer. I am always eager to learn and take on new challenges in the tech industry.
+                    As a skilled developer with 6 years of experience, I am proficient in both frontend and backend development. In my free time, I also have experience as a mobile developer. I am always eager to learn and take on new challenges in the tech industry.
                 </p>
             </div>
             <div class=" md:w-1/2 z-10 relative flex justify-center items-center mt-20 md0mt-0">
                 <img src="/difusal.png" alt="Cristhian Sanchez Medina a.k.a Difusal">
-            </div>
-            <div class="absolute img-back">
-                <img src="https://nuxt.com/assets/home/hero-gradient-tablet.svg" alt="">
             </div>
         </div>
     </div>
@@ -103,14 +100,25 @@ span,
 
 .colors {
     background-color: #FFFFFF;
-    background-size: 100%;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-image: linear-gradient(45deg, #36e4da, #00dc82);
+    animation: gradientMove 4s ease-in-out infinite alternate;
     @media(max-width:750px){
         font-size: 30px;
+    }
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
     }
 }
 

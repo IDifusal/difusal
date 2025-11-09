@@ -8,8 +8,10 @@
         <HomeLanguaje title='Nodejs' :inverse="false" :list="nodeList"/>
         <HomeLanguaje title='Laravel' :inverse="true" :list="laravelList"/>
         <HomeLanguaje title='Flutter' :list="flutterList" :inverse="false"/>
+        <HomeIndependentProjects/>
         <HomeWordpressSection :projects="wordpressProjects"/>
         <HomeAiSection/>
+        <HomeExperience/>
         <HomeTitle title='Other Technologies that i have used'></HomeTitle>
         <HomeTech/>
         <HomeTitle title='Companies that i have collaborated with'></HomeTitle>
