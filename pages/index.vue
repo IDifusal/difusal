@@ -1,27 +1,26 @@
 
 <template>
-    <div>
-        <HomeHero class="section"/>
-        <HomeTitle title='My favorite technologies'></HomeTitle>
-        <HomeLanguaje title="Vue 💚" :list="vueList" :inverse="false"/>
-        <HomeLanguaje title='Angular' :inverse="true" :list="angularList"/>
-        <HomeLanguaje title='Nodejs' :inverse="false" :list="nodeList"/>
-        <HomeLanguaje title='Laravel' :inverse="true" :list="laravelList"/>
-        <HomeLanguaje title='Flutter' :list="flutterList" :inverse="false"/>
-        <HomeIndependentProjects/>
-        <HomeWordpressSection :projects="wordpressProjects"/>
-        <HomeAiSection/>
-        <HomeExperience/>
-        <HomeTitle title='Other Technologies that i have used'></HomeTitle>
-        <HomeTech/>
-        <HomeTitle title='Companies that i have collaborated with'></HomeTitle>
-        <HomeCompanies/>
-        <HomeTitle title='Contact Info'></HomeTitle>
-        <HomeContact/>
-    </div>
-  </template>
+  <div>
+    <HomeHero class="section" />
+    <HomeTitle title="My favorite technologies"></HomeTitle>
+    <HomeLanguaje title="Typescript" :list="typescriptList" :inverse="false" />
+    <HomeLanguage title="Python" :list="pythonList" :inverse="true" />
+    <HomeLanguaje title="PHP" :list="phpList" :inverse="false" />
+    <HomeLanguaje title="Flutter" :list="flutterList" :inverse="true" />
+    <HomeIndependentProjects />
+    <HomeWordpressSection :projects="wordpressProjects" />
+    <HomeAiSection />
+    <HomeExperience />
+    <HomeTitle title="Other Technologies that i have used"></HomeTitle>
+    <HomeTech />
+    <HomeTitle title="Companies that i have collaborated with"></HomeTitle>
+    <HomeCompanies />
+    <HomeTitle title="Contact Info"></HomeTitle>
+    <HomeContact />
+  </div>
+</template>
   <script setup>
-    const wordpressProjects = ref([
+const wordpressProjects = ref([
   {
     title: "Knomad Yarn",
     url: "https://www.knomadyarn.com/",
@@ -67,13 +66,64 @@
       "Developed a modern bilingual restaurant website from the ground up. Added WooCommerce for online ordering and integrated SEO-friendly menu sections. Focused on a fast, mobile-first layout and incorporated subtle motion effects to highlight the brand’s warm, authentic identity.",
     tags: ["WooCommerce", "Bilingual", "Local SEO", "Custom Theme"],
   },
-])
+]);
 
-    const vueList = ref(['Vue2, Vue3','Nuxt2, Nuxt3','Vuex, Pinia','Testing'])
-    const angularList = ref(['Typescript','Directives','JWT','Dependency Injection','Testing'])
-    const flutterList = ref(['Dart','Provider','Shared Prefences','Api Integration'])
-    const laravelList = ref(['Migrations', 'Seeder', 'MVC', 'S3','Eloquent ORM','Api Rest'])
-    const nodeList = ref(['Migrations', 'Seeder',' Sequelize','Api Rest','Sockets'])
-  </script>
+const typescriptList = ref([
+  "React",
+  "Node.js",
+  "Nest.js",
+  "Next.js",
+  "Vue2, Vue3",
+  "Nuxt2, Nuxt3",
+  "Angular",
+  "Testing",
+]);
+const pythonList = ref([
+  "FastAPI",
+  "Flask",
+  "Django",
+  "SQLAlchemy",
+  "Pandas",
+  "Numpy",
+  "Matplotlib",
+  "Seaborn",
+  "Scikit-learn",
+  "TensorFlow",
+  "Keras",
+  "PyTorch",
+  "OpenAI",
+  "LangChain",
+  "n8n",
+  "API Integration",
+]);
+const flutterList = ref([
+  "Dart",
+  "Provider",
+  "Shared Prefences",
+  "Api Integration",
+]);
+const laravelList = ref([
+  "Migrations",
+  "Seeder",
+  "MVC",
+  "S3",
+  "Eloquent ORM",
+  "Api Rest",
+]);
+const phpList = ref([
+  "Laravel",
+  "CodeIgniter",
+  "WordPress",
+  "WooCommerce",
+  "API Integration",
+]);
+const nodeList = ref([
+  "Migrations",
+  "Seeder",
+  " Sequelize",
+  "Api Rest",
+  "Sockets",
+]);
+</script>
   <style>
-  </style>
+</style>
