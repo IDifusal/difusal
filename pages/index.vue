@@ -4,9 +4,10 @@
     <HomeHero class="section" />
     <HomeTitle title="My favorite technologies"></HomeTitle>
     <HomeLanguaje title="Typescript" :list="typescriptList" :inverse="false" />
-    <HomeLanguage title="Python" :list="pythonList" :inverse="true" />
+    <HomeLanguaje title="Python" :list="pythonList" :inverse="true" />
     <HomeLanguaje title="PHP" :list="phpList" :inverse="false" />
     <HomeLanguaje title="Flutter" :list="flutterList" :inverse="true" />
+    <HomeLanguaje title="Go (Learning)" :list="goList" :inverse="false" />
     <HomeIndependentProjects />
     <HomeWordpressSection :projects="wordpressProjects" />
     <HomeAiSection />
@@ -82,15 +83,6 @@ const pythonList = ref([
   "FastAPI",
   "Flask",
   "Django",
-  "SQLAlchemy",
-  "Pandas",
-  "Numpy",
-  "Matplotlib",
-  "Seaborn",
-  "Scikit-learn",
-  "TensorFlow",
-  "Keras",
-  "PyTorch",
   "OpenAI",
   "LangChain",
   "n8n",
@@ -123,6 +115,16 @@ const nodeList = ref([
   " Sequelize",
   "Api Rest",
   "Sockets",
+]);
+const goList = ref([
+  "Microservices",
+  "API Integration",
+  "Docker",
+  "CI/CD",
+  "Testing",
+  "Performance Optimization",
+  "Security",
+  "Performance Optimization",
 ]);
 </script>
   <style>

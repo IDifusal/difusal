@@ -5,16 +5,20 @@
                 {{ props.title }}
             </h2>
             <ul class="ts__list">
-                <li v-for="item in props.list">
+                <li v-for="(item, index) in props.list" :key="index">
                     {{ item }}
                 </li>
             </ul>
         </div>
         <div class="md:w-1/2">
             <img v-if="props.title =='Angular'" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Difusal has experience with Angular" class="ts__img">
-            <img v-else-if="props.title =='Flutter'" src="https://cdn.svgporn.com/logos/flutter.svg" alt="Difusal has experience with Angular" class="ts__img">
-            <img v-else-if="props.title =='Laravel'" src="https://cdn.svgporn.com/logos/laravel.svg" alt="Difusal has experience with Angular" class="ts__img">
-            <img v-else-if="props.title =='Nodejs'" src="https://cdn.svgporn.com/logos/nodejs-icon.svg" alt="Difusal has experience with Angular" class="ts__img">
+            <img v-else-if="props.title =='Flutter'" src="https://cdn.svgporn.com/logos/flutter.svg" alt="Difusal has experience with Flutter" class="ts__img">
+            <img v-else-if="props.title =='Laravel'" src="https://cdn.svgporn.com/logos/laravel.svg" alt="Difusal has experience with Laravel" class="ts__img">
+            <img v-else-if="props.title =='Nodejs'" src="https://cdn.svgporn.com/logos/nodejs-icon.svg" alt="Difusal has experience with Nodejs" class="ts__img">
+            <img v-else-if="props.title =='Typescript'" src="https://cdn.svgporn.com/logos/typescript-icon.svg" alt="Difusal has experience with Typescript" class="ts__img">
+            <img v-else-if="props.title =='Python'" src="https://cdn.svgporn.com/logos/python.svg" alt="Difusal has experience with Python" class="ts__img">
+            <img v-else-if="props.title =='PHP'" src="https://cdn.svgporn.com/logos/php.svg" alt="Difusal has experience with PHP" class="ts__img">
+            <img v-else-if="props.title =='Go (Learning)'" src="https://cdn.svgporn.com/logos/go.svg" alt="Difusal has experience with Go" class="ts__img">
             <img v-else src="https://cdn.svgporn.com/logos/vue.svg" alt="Difusal is an expert with Vue" class="ts__img">
         </div>
     </div>
