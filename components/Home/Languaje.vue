@@ -19,6 +19,7 @@
             <img v-else-if="props.title =='Python'" src="https://cdn.svgporn.com/logos/python.svg" alt="Difusal has experience with Python" class="ts__img">
             <img v-else-if="props.title =='PHP'" src="https://cdn.svgporn.com/logos/php.svg" alt="Difusal has experience with PHP" class="ts__img">
             <img v-else-if="props.title =='Go (Learning)'" src="https://cdn.svgporn.com/logos/go.svg" alt="Difusal has experience with Go" class="ts__img">
+            <img v-else-if="props.title =='Marketing'" src="https://cdn.svgporn.com/logos/zapier.svg" alt="Difusal has experience with Marketing" class="ts__img" style="filter: invert(100%);">
             <img v-else src="https://cdn.svgporn.com/logos/vue.svg" alt="Difusal is an expert with Vue" class="ts__img">
         </div>
     </div>

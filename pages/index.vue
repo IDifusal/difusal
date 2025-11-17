@@ -8,6 +8,7 @@
     <HomeLanguaje title="PHP" :list="phpList" :inverse="false" />
     <HomeLanguaje title="Flutter" :list="flutterList" :inverse="true" />
     <HomeLanguaje title="Go (Learning)" :list="goList" :inverse="false" />
+    <HomeLanguaje title="Marketing" :list="marketingList" :inverse="true" />
     <HomeIndependentProjects />
     <HomeWordpressSection :projects="wordpressProjects" />
     <HomeAiSection />
@@ -21,6 +22,17 @@
   </div>
 </template>
   <script setup>
+  const marketingList = ref([
+    "N8n",
+    "Airtable",
+    "Zapier",
+    "Zoho CRM",
+    "Go High Level",
+    "Email Marketing",
+    "Google Analytics",
+    "Constant Contact",
+    "Quickbooks",
+  ]);
 const wordpressProjects = ref([
   {
     title: "Knomad Yarn",

@@ -57,8 +57,8 @@ const experiences = ref([
     logo: '/images/companies/espanglish.png',
     role: 'Full Stack Developer',
     type: 'Full-time · Remote',
-    period: 'Jan 2020 - Dec 2020',
-    duration: '1 yr',
+    period: 'Jul 2019 - Dec 2020',
+    duration: '1 yr 6 mos',
     description: [
       'Web maintenance and support, including server management (AWS, custom VPS)',
       'UI/UX design using Adobe XD and Figma',
@@ -71,21 +71,6 @@ const experiences = ref([
       'Implementation and analysis of heatmaps'
     ],
     skills: ['JavaScript', 'WordPress', 'WooCommerce', 'Laravel', 'AWS', 'Flutter', 'UI/UX']
-  },
-  {
-    id: 5,
-    company: 'ilustra Consultores',
-    logo: '/images/companies/ilustra.png',
-    role: 'Frontend Developer',
-    type: 'Full-time · Remote',
-    period: 'Jul 2019 - Dec 2019',
-    duration: '6 mos',
-    description: [
-      'Converted 20+ legacy sites to responsive design',
-      'Improved UX for websites using heatmaps',
-      'Designed custom graphics for websites'
-    ],
-    skills: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'UX']
   }
 ])
 
