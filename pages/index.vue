@@ -32,8 +32,19 @@
     "Google Analytics",
     "Constant Contact",
     "Quickbooks",
+    "Shopify",
+    "Wix",
+    "WordPress",
   ]);
 const wordpressProjects = ref([
+  {
+    title:"Harper Corporation Website Migration",
+    url: "https://www.harpercorporation.com/",
+    thumbnail: "/images/portfolio/harper-website.jpeg",
+    role: "Website migration and optimization",
+    description: "Migrated the full site from Legacy site to WordPress, keeping design consistency while improving load time and content structure. Reorganized pages with custom fields, optimized metadata and internal linking, and implemented new blog sections to support ongoing content marketing.",
+    tags: ["Migration", "SEO", "ACF", "Performance","n8n"]
+  },
   {
     title: "Knomad Yarn",
     url: "https://www.knomadyarn.com/",
