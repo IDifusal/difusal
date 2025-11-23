@@ -1,0 +1,18 @@
+# robots.txt for difusal.com
+
+# Allow all search engines to crawl the main site
+User-agent: *
+Allow: /
+
+# Block indexing of PDF documents
+Disallow: /*.pdf$
+
+# Block indexing of image directories
+Disallow: /images/companies/
+Disallow: /images/portfolio/
+Disallow: /images/projects/
+
+# Allow specific assets that should be indexed
+Allow: /difusal.png
+Allow: /favicon.ico
+
