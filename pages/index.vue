@@ -6,9 +6,10 @@
     <HomeLanguaje title="Typescript" :list="typescriptList" :inverse="false" />
     <HomeLanguaje title="Python" :list="pythonList" :inverse="true" />
     <HomeLanguaje title="PHP" :list="phpList" :inverse="false" />
-    <HomeLanguaje title="Flutter" :list="flutterList" :inverse="true" />
-    <HomeLanguaje title="Go (Learning)" :list="goList" :inverse="false" />
-    <HomeLanguaje title="Marketing" :list="marketingList" :inverse="true" />
+    <HomeLanguaje title="Java" :list="javaList" :inverse="true" />
+    <HomeLanguaje title="Flutter" :list="flutterList" :inverse="false" />
+    <HomeLanguaje title="Go (Learning)" :list="goList" :inverse="true" />
+    <HomeLanguaje title="Marketing" :list="marketingList" :inverse="false" />
     <HomeIndependentProjects />
     <HomeWordpressSection :projects="wordpressProjects" />
     <HomeAiSection />
@@ -148,6 +149,14 @@ const goList = ref([
   "Performance Optimization",
   "Security",
   "Performance Optimization",
+]);
+const javaList = ref([
+  "Spring Boot",  
+  "Spring AI",
+  "Grafana",
+  "Prometheus",
+  "Elasticsearch",
+  "Kafka"
 ]);
 </script>
   <style>
